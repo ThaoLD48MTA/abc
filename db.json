@@ -1,31 +1,33 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "Post 1"
+  "type": "infection",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [102.0, 0.5]
+  },
+  "properties": {
+    "_id": "abcdef1234567891",
+    "address": {
+      "postal": "12345",
+      "level4": "District A",
+      "level3": "City B",
+      "level2": "Province C",
+      "level1": "Region D",
+      "level0": "Country E"
     },
-    {
-      "id": 2,
-      "title": "Post 2"
+    "reportDate": "2024-08-13",
+    "confirmDate": "2024-08-14",
+    "status": 1,
+    "patient": {
+      "fullName": "John Doe 222",
+      "gender": "M",
+      "dob": "1990-01-01",
+      "contact": "john.doe@example.com",
+      "nationalId": "ID123456789",
+      "insuranceId": "INS987654321"
     },
-    {
-      "id": 3,
-      "title": "Post 3"
+    "meta": {
+      "source": "hospital",
+      "additionalInfo": "No additional info"
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
   }
 }
